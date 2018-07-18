@@ -5,3 +5,12 @@ Se pide imprimir la secuencia numérica, de la siguiente forma:
 3   6   9   12
 4   8   12   16
 =end
+
+def secuencia_numerica()
+	puts '1   2   3   4'
+	puts '2   4   6   8'
+	puts '3   6   9   12'
+	puts '4   8   12   16'
+end
+
+puts secuencia_numerica

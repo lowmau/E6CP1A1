@@ -11,3 +11,13 @@
 </table>
 
 =end
+
+a = 3
+b = ''
+
+a.times do |i|
+	i += 1
+	b += "<td> #{i} </td>\n"
+end
+
+puts "<table>\n" "<tbody>\n" "<tr>\n" + b + "</tr>\n" "</tbody>\n" "</table>\n"

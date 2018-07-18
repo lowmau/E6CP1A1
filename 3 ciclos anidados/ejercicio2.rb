@@ -24,3 +24,36 @@ Generar el código para imprimir la siguiente tabla:
   <tbody>
  </table>
 =end
+
+a = 4
+b = '<ul>'
+puts '<table>'
+puts '  <tbody>'
+puts '      <tr>'
+
+a.times do |i|
+  i += 1
+  b = "       <td> #{i} </td>\n"
+  puts b
+end
+puts '      </tr>'
+
+puts '      <tr>'
+
+a.times do |i|
+  i += 5
+  b = "       <td> #{i} </td>\n"
+  puts b
+end
+puts '      </tr>'
+
+puts '      <tr>'
+
+a.times do |i|
+  i += 9
+  b = "       <td> #{i} </td>\n"
+  puts b
+end
+puts '      </tr>'
+puts '  </tbody>'
+puts '</table>'
